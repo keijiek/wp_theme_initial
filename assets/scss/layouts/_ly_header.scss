@@ -1,0 +1,29 @@
+@use '../palette' as palette;
+
+$bg: palette.$primary_bg;
+$fg: palette.$base_fg;
+
+.ly_header {
+  background-color: $bg;
+  color: $fg;
+  padding: 0.5rem;
+}
+
+
+
+.bl_globalLogo {
+  color: $fg;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.bl_globalLogo_anchor {
+  color: $fg;
+  text-decoration: none;
+  transition: color 0.5s ease;
+
+  &:hover,
+  &:active {
+    color: rgba($fg, 0.8);
+  }
+}

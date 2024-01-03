@@ -1,0 +1,23 @@
+{
+  "name": "kusunokai_theme",
+  "private": true,
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && esbuild ./assets/ts/index.ts --outfile=./assets/dist/index.min.js --bundle --minify --sourcemap --watch  --target=chrome58,edge16,firefox57,safari11"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/m-plus-rounded-1c": "^5.0.11",
+    "ress": "^5.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.11",
+    "scss": "^0.2.4"
+  }
+}

@@ -1,0 +1,7 @@
+@use '../palette';
+
+.ly_footer {
+  background-color: palette.$primary_bg;
+  color: palette.$primary_fg;
+  padding: 1rem;
+}
